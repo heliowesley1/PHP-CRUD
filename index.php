@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php
+    require_once("database/conn.php");
+
+?><!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -28,8 +31,7 @@
                     >
 
                     <p class="task-description"></p>
-                    </p>
-
+        
                     <div class="task-actions">
                         <a class="action-button edit-button">
                             <i class="fa-regular fa-pen-to-square"></i>

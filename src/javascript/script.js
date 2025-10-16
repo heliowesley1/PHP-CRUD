@@ -6,4 +6,13 @@ $(document).ready(function () {
         task.find('.task-actions').addClass('hidden');
         task.find('.edit-task').removeClass('hidden');
     });
-});
+
+    $('.progress').on('click', function () {
+        if ($(this).on('::checked')) {
+            $(this).addClass('done');
+        }
+        else {
+            $(this).removeClass('done');
+        }
+    });
+}); 
