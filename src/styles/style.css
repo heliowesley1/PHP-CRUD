@@ -114,6 +114,7 @@ body {
 
 .action-button.edit-button {
     color: #DBBA2A;
+    cursor: pointer;
 }
 
 .action-button.delete-button {
